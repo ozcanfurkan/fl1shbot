@@ -174,7 +174,7 @@ def conv(bot, update):
 				#if i.status == "creator":
 					#creator = i.user.id break
 			#if update.message.from_user.id != creator:
-			if update.message.chat.id in [-1001479129853]:
+			if update.message.chat.id in [0]:
 				for i in kufurlist:
 					if replacer(i) == replacer(txt.lower()) or replacer(i) in replacer(txt.lower()).split(" ") or replacer(i) in replacer(txt.lower()).split("\n"):
 						id = update.message.chat.id
